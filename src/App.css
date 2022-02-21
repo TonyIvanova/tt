@@ -132,3 +132,147 @@ h2 {
   border: 1px solid #dec08c;
   color: #101010;
 }
+
+
+.button-small {
+  margin: 16px 0;
+  padding: 6px 16px;
+  
+  background-color: #101010;
+  border: 1px solid #dec08c;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.button-small:hover {
+  background-color: #dec08c;
+  border: 1px solid #dec08c;
+  color: #101010;
+}
+
+
+/* catalog */
+.list {
+  margin: 0 auto;
+  max-width: 1002px; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  
+}
+
+/* card */
+.title-price {
+  display: flex; 
+  justify-content: space-between;
+  margin: 0px 25px; 
+  
+}
+.card-buttons {
+  display: flex; 
+  justify-content: space-between;
+  margin: 0px 25px; 
+  
+}
+
+.product-card {
+  width: 300px; 
+  border: 1px solid gray ;
+  margin: 16px; 
+ 
+}
+.card-image {
+ width: 250px; 
+}
+
+.card-contents {
+  text-align: center;
+  margin: 0px 25px; 
+  width: 250px; 
+  
+  
+}
+ 
+/* product */
+.product {
+  margin: 0 auto;
+  max-width:900px; 
+  display: flex; 
+ 
+  justify-content: center;
+  align-items: top;
+ 
+  
+}
+.product-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;  
+  flex-grow: 1; 
+  margin: 0; 
+}
+.product-image {
+  max-width: 350px;
+  margin: 0 25px; 
+}
+
+.description {
+  margin-left: 5vw; 
+  margin-top: 48px; 
+  text-align: left;
+}
+
+.button-size {
+ 
+  margin-right: 8px; 
+  padding: 4px 4px;
+  
+  background-color: #101010;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.button-size:hover{
+  background-color: white;
+  color: #101010;
+}
+
+.button-size-picked {
+ 
+  margin-right: 8px; 
+  padding: 4px 4px;
+  
+  background-color: white;
+  color: #101010;
+
+  border: 1px solid white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+
+
+/* product mobile*/
+@media only screen and (max-width: 500px) {
+  .product {
+    flex-wrap: wrap; 
+  }
+  .product-image {
+    width: 100%; 
+  }
+  .description {
+    margin: 25px; 
+    
+  }
+}

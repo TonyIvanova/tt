@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="hero-text ">
           <h1>enchant your home</h1>
           <h2>with a scents from Saint-Petersburg</h2>
-          <Button text="SHOP NOW" />
+          <Button text="SHOP NOW" classCSS='button' link='/shop'/>
         </div>
       </div>
     </>
